@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Apexedia FPS Training Guide</title>
+  <!-- Meta tags for responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar">
+    <div class="logo">Apexedia</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#foundations">Foundations</a></li>
+      <li><a href="#biomechanics">Biomechanics</a></li>
+      <li><a href="#attention">Attention &amp; Reintegration</a></li>
+      <li><a href="#drills">Practice Drills</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========== HERO / HOME ========== -->
+  <header id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Apexedia FPS Training Guide</h1>
+      <p>Master Your Aim, Posture, and Mindset with Biomechanical Precision</p>
+      <button onclick="window.location.href='#foundations'">Start Learning</button>
+      <button onclick="window.open('https://discord.gg/YourDiscordLink', '_blank')">Join Our Discord</button>
+    </div>
+  </header>
+
+  <!-- ========== FOUNDATIONS ========== -->
+  <section id="foundations" class="section">
+    <h2>Foundations</h2>
+    <p>Welcome to Apexedia. Here, we fuse science and practical tips to move beyond “just practice more.” 
+       Our core model is built on wide-field vision, posture optimization, and quick neural reintegration.</p>
+    <div class="info-cards">
+      <div class="card">
+        <h3>Wide-Field Vision</h3>
+        <p>Maintain a broad, panoramic view to reduce tension and improve reaction time.</p>
+      </div>
+      <div class="card">
+        <h3>Biomechanics</h3>
+        <p>Address small but crucial details in finger and wrist placement for maximum stability.</p>
+      </div>
+      <div class="card">
+        <h3>Reintegration</h3>
+        <p>Quickly reset your neural coherence after chaos, so you’re never out of the fight.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BIOMECHANICS ========== -->
+  <section id="biomechanics" class="section">
+    <h2>Biomechanics</h2>
+    <p>Explore optimal hand and finger positioning. Flattened thumb or pinky can cause 
+       tension leading to shaky aim. Learn to keep both sides balanced.</p>
+    <img src="images/hand-posture.png" alt="Hand Posture Example" class="responsive-img" />
+    <ul>
+      <li>Relaxed pinky and thumb for smooth left/right motion.</li>
+      <li>Elbow ~90°, shoulder loose to avoid transferring tension down to the wrist.</li>
+      <li>Find a grip style (palm/claw/fingertip) that supports easy pivot.</li>
+    </ul>
+  </section>
+
+  <!-- ========== ATTENTION & REINTEGRATION ========== -->
+  <section id="attention" class="section">
+    <h2>Attention &amp; Reintegration</h2>
+    <p>Rather than hyper-focusing on your wrist or the enemy’s position, anchor your awareness in a 
+       wide-field visual state. This allows faster “re-binding” after any shock (flash, bump, etc.).</p>
+    <ol>
+      <li><strong>Wide-Field Vision:</strong> Keep the entire screen in view, using peripheral cues.</li>
+      <li><strong>Neural Coherence:</strong> A steady top-down rhythm helps your motor system 
+          self-correct smoothly.</li>
+      <li><strong>Quick Recovery:</strong> If you tense up, re-center visually and let the posture 
+          follow automatically.</li>
+    </ol>
+  </section>
+
+  <!-- ========== PRACTICE DRILLS ========== -->
+  <section id="drills" class="section">
+    <h2>Practice Drills</h2>
+    <p>Structured routines to build muscle memory without reinforcing bad habits.</p>
+    <div class="drills-grid">
+      <div class="drill-card">
+        <h3>Warmup Routine</h3>
+        <p>Spend 5 minutes on posture checks. Gently curl pinky and thumb. 
+           Practice wide-field scanning in an aim trainer (e.g. KovaaK’s or Aim Lab).</p>
+      </div>
+      <div class="drill-card">
+        <h3>Multi-Target Flicks</h3>
+        <p>Set up a scenario with multiple sporadic targets. Keep your gaze broad; 
+           let the crosshair move where your peripheral vision senses a target.</p>
+      </div>
+      <div class="drill-card">
+        <h3>Chaos Recovery</h3>
+        <p>Simulate random flashes or obstacles. Immediately reset to wide-field 
+           upon recovery and notice how quickly your aim stabilizes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMMUNITY ========== -->
+  <section id="community" class="section">
+    <h2>Community</h2>
+    <p>Join our Discord to ask questions, share clips, and learn from others’ breakthroughs.</p>
+    <div class="testimonials">
+      <blockquote>
+        “Fixed my flattened pinky and instantly stopped shaky leftward aim!” – @FPS_Beast
+      </blockquote>
+      <blockquote>
+        “Wide-field vision helped me catch enemies sneaking into corners. My K/D went up!” – @RogueSniper
+      </blockquote>
+    </div>
+    <button onclick="window.open('https://discord.gg/YourDiscordLink', '_blank')">
+      Join Discord
+    </button>
+  </section>
+
+  <!-- ========== RESOURCES ========== -->
+  <section id="resources" class="section">
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://some-affiliate-link.com/mouse">Recommended Mouse &amp; Grip</a></li>
+      <li><a href="https://some-affiliate-link.com/chair">Ergonomic Chair</a></li>
+      <li><a href="https://some-aimtrainer.com">Aim Trainer Tools</a></li>
+      <li><a href="https://some-paper.com">Neural Coherence Paper</a></li>
+    </ul>
+    <h3>FAQ</h3>
+    <p><strong>Q:</strong> What if my hand shakes even with correct posture?</p>
+    <p><strong>A:</strong> Try reducing tension from shoulder and re-establish wide-field vision. 
+       If issues persist, see a pro for possible medical concerns.</p>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>&copy; 2025 Apexedia. All rights reserved.</p>
+    <p><a href="#home">Back to Top</a></p>
+  </footer>
+
+</body>
+</html>
+/* Basic resets and fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a6ea5;
+  padding: 1rem 2rem;
+}
+.logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero / Header */
+.hero-section {
+  height: 80vh;
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+.hero-content button {
+  padding: 0.75rem 1.25rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f7630c;
+  color: #fff;
+  font-weight: 600;
+}
+.hero-content button:hover {
+  background-color: #f54404;
+}
+
+/* Section styling */
+.section {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.section p {
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+}
+
+/* Info Cards (Foundations) */
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  flex: 1;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+
+/* Biomechanics */
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+/* Drills */
+.drills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.drill-card {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  flex: 1;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+/* Community */
+.testimonials {
+  margin: 2rem 0;
+}
+blockquote {
+  background-color: #eee;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #3a6ea5;
+}
+
+/* Footer */
+.footer {
+  background-color: #3a6ea5;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* For a simple mobile approach, you can do a hamburger menu if you want */
+  }
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .section {
+    padding: 2rem 1rem;
+  }
+}
